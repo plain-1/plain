@@ -1,0 +1,38 @@
+
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>PLAIN — Очистители воздуха</title>
+    <link href="styles.css" rel="stylesheet" />
+</head>
+<body>
+    <header>
+        <h1>PLAIN</h1>
+        <nav>
+            <button onclick="showTab('home')">Для дома</button>
+            <button onclick="showTab('medicine')">Для медицины</button>
+            <button onclick="showTab('business')">Для бизнеса</button>
+        </nav>
+    </header>
+    <main>
+        <section id="home" class="tab active">
+            <h2>Для дома</h2>
+            <p>Современные очистители воздуха для вашего уюта.</p>
+            <img src="home.jpg" alt="Для дома">
+        </section>
+        <section id="medicine" class="tab">
+            <h2>Для медицины</h2>
+            <p>Проверенные решения для клиник и лабораторий.</p>
+            <img src="medicine.jpg" alt="Для медицины">
+        </section>
+        <section id="business" class="tab">
+            <h2>Для бизнеса</h2>
+            <p>Надёжные системы для офисов и производств.</p>
+            <img src="business.jpg" alt="Для бизнеса">
+        </section>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
